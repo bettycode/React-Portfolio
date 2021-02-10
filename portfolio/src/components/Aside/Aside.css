@@ -1,0 +1,32 @@
+
+.skill-title{
+    padding: 20px;
+    margin-top: 4px;
+}
+.skill-title h2{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #272727;
+    font-family: "Poppins", sans-serif;
+}
+.skill-title h2::after{
+    content: "";
+    width: 60px;
+    height: 1px;
+    display: inline-block;
+    background: #F97F51;
+    margin: 4px 10px;
+}
+.skill li{
+    padding-bottom: 6px;
+    text-align:center ;
+    color: black;
+}
+.skillrow{
+    padding-bottom: 2rem;
+}
