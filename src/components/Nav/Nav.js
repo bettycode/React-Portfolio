@@ -8,7 +8,7 @@ function Nav() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className ="container">
-            <Link className="navbar-brand Name" to="/">
+            <Link className="navbar-brand Name" to="/React-Portfolio">
               BB
               </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,9 +18,9 @@ function Nav() {
               <ul className="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style= {{maxHeight: 100}} >
                 <li className="nav-item active">
                 <Link
-                  to ="/"
+                  to ="/React-Portfolio"
                    className={
-                    window.location.pathname === "/" || window.location.pathname === "/HOME"
+                    window.location.pathname === "/React-Portfolio" || window.location.pathname === "/React-Portfolio"
                     ? "nav-link active"
                     : "nav-link"
                    }
