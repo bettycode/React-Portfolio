@@ -16,7 +16,7 @@ function App() {
         <div>
           <Nav />,
           <Wrapper>
-            <Route exact path="/React-Portfolio" component={Header} />
+            {/* <Route exact path="/React-Portfolio" component={Header} /> */}
             <Route exact path="/React-Portfolio" component={Header} />
             <Route exact path="/PORTFOLIO" component={Portfolio} />
             <Route exact path="/CONTACT" component={Contact} />
