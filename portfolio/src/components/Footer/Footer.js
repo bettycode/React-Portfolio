@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 
-export default function Footer() {
+ function Footer() {
     return (
         <footer className="footer mt-auto py-3">
              <div className="container footer1">
@@ -10,3 +10,4 @@ export default function Footer() {
         </footer>
     )
 }
+export default Footer()

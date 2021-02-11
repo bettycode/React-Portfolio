@@ -22,6 +22,7 @@ export default function Aside() {
                 <li>Handlebars</li> 
                 <li>MYSQL</li> 
                 <li>Sequelize</li>
+                <li>React</li>
                 
             </div>    
       

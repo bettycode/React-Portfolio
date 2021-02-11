@@ -3,8 +3,8 @@ import './Header.css'
 import Photo from './../../assets/Photo.jpg'
 import Aside from './../../components/Aside/Aside'
 import Design from './Design'
-import img2 from './../../assets/img2.png'
-export default function header() {
+
+export default function Header() {
     return (
        
         <div>

@@ -1,0 +1,14 @@
+div.container-fluid.port{
+    background:whitesmoke; 
+}
+div h2{
+    padding-top: 2rem;
+   
+    font-family:  "Poppins", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.port1{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
