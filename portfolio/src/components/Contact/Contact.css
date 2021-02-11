@@ -1,0 +1,125 @@
+
+
+.info{
+    
+    top: 100px;
+    bottom: auto;
+    opacity: 1;
+    padding-bottom: 45px;
+   
+
+}
+/* 
+.info-get{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    top: 140px;
+   
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: auto;
+    z-index: 2;
+    background:white;
+} */
+.info-title h2{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    padding-top:2rem;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+.info-title h2::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background:#F97F51;
+    margin: 4px 10px;
+}
+.info-title p{
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color:whitesmoke;
+}
+
+@media (max-width:600px){
+.info-get{
+      margin-left: 0;
+      margin-right: 0;
+   
+}
+}
+
+.row-info{
+    margin-top: 5rem;
+}
+.row{
+    padding-left: 1px;
+    padding-right: 1px;
+    margin: 0;
+}
+
+
+
+.item1{
+    align-items: stretch;
+    display: flex!important;
+    
+}
+.item2{
+    align-items: stretch;
+    display: flex!important;
+    
+}
+.cont-box{
+    color: #444444;
+    padding: 20px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+
+.cont-box h3{
+    font-size: 20px;
+    color:whitesmoke;
+    font-weight: 700;
+    margin: 10px 0 8px 68px;
+}
+.cont-box p{
+    padding: 0;
+    color: whitesmoke;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 5px 0 0 38px;
+}
+.cont-box i.sol{
+    font-size: 24px;
+    color:#F97F51 ;
+    border-radius: 50%;
+    padding: 14px;
+    float: left;
+    background: rgba(255, 255, 255, 0.1);
+    
+}.cont-box .small-sol a{
+    font-size: 25px;
+    display: inline-block;
+    color:whitesmoke;
+    line-height: 1;
+    margin-right: 12px;
+    margin-left: 12px;
+    transition: 0.3s;
+}
+.cont-box .small-sol a:hover{
+    color:#F97F51 ;
+}
