@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import Photo from './../../assets/Photo.jpg'
+import pmm from './../../assets/pmm.png'
 import Aside from './../../components/Aside/Aside'
 import Design from './Design'
 
@@ -44,14 +45,27 @@ export default function Header() {
                                 </p>   
                                 <p>The drive behind what i do is My faith in God and my family. In faith i get strength and hope. And my family, they motivate me.</p>    
                                 <p style ={{textAlign: "center"}}>
-                                    <a href="#" class="btn btn-primary btn-md active"  target="_blank" role="button" aria-pressed="true">RESUME</a>
+                                    <a href="https://docs.google.com/document/d/1zH6HBtnYVEMnOpBxWPUB5PwXgBD5vkYBOxAbhrmfm_w/edit" style={{ background:" #F97F51", border:" #F97F51"}} class="btn btn-primary btn-md active"  target="_blank" role="button" aria-pressed="true">RESUME</a>
                                 </p>
                                   
                             </div>
-                                
+                            <div className="container" style={{background:"rgba(247, 193, 162, 0.7)"}}>
+                                <div className="row" style={{paddingTop:"2rem"}}>
+                                    <div className =" col-md-6">
+                                        <h4 style={{paddingTop:"5rem"}}>Check my portfolio  :)!!</h4>
+                                    </div>
+                                    <div className =" col-md-6">
+                                        <img src={pmm} alt="profile img"></img>
+                                    </div>
+
+                                </div>
+                            </div>
+                           
+                            
+                           
                         </div>
                     </div>
-                    <Design />
+                   
                 </div>
                
             </div>

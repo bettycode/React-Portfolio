@@ -1,9 +1,25 @@
 import React from 'react'
 import './Contact.css'
+import pmm from './../../assets/pmm.png'
 
 export default function contact() {
     return (
-        <div id="contact" class="info-show "style ={{background:"#794279"}}>
+        <>
+         <div className="container-fluid" style={{background:"rgba(247, 193, 162, 0.7)"}}>
+           <div className="container">
+            <div className="row" style={{paddingTop:"2rem"}}>
+                <div className =" col-md-6">
+                    <h4 style={{paddingTop:"5rem"}}>Thank you for checking my Portfolio!!</h4>
+                </div>
+                <div className =" col-md-6">
+                    <img src={pmm} alt="profile img"></img>
+                </div>
+
+            </div>
+            </div>
+    </div>
+
+        <div id="contact" class="info-show "style ={{background:"#794279",height:"400px"}}>
             <div class="container info info-get">
                 <div class=" row info-title"> 
                     <div class="col-lg-12">
@@ -42,5 +58,7 @@ export default function contact() {
             </div>
                     
         </div>
+       
+    </>
     )
 }
