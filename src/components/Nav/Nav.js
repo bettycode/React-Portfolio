@@ -20,10 +20,8 @@ function Nav() {
                 <Link
                   to ="/React-Portfolio"
                    className={
-                    window.location.pathname === "/React-Portfolio" || window.location.pathname === "/React-Portfolio"
-                    ? "nav-link active"
-                    : "nav-link"
-                   }
+                    window.location.pathname === "/React-Portfolio" ? "nav-link active" : "nav-link"}
+                    
                 >
                   HOME
                   </Link>
