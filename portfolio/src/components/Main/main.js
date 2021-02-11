@@ -2,8 +2,9 @@ import React from 'react'
 import Nav from './../Nav/Nav'
 import Header from './../Header/Header'
 import Portfolio from './../Portfolio/Portfolio'
-import Footer from './../Footer/Footer'
+
 import Contact from './../Contact/Contact'
+import F from './../F/F'
 
 
 export default function Main() {
@@ -13,6 +14,7 @@ export default function Main() {
            <Header />,
           <Portfolio />,
           <Contact />
+          <F />
         </div>
 
     )

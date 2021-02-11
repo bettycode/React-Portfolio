@@ -70,7 +70,7 @@ export default function Portfolio() {
                     <img src={quiz} alt=""/>
                     </div>
                     <div class="col-md-4">
-                         <img src={sch} alt=""/>
+                         <img src={sch} alt="" style ={{width:"220px"}}/>
                     </div>
                 </div>
 
