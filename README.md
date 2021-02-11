@@ -6,18 +6,18 @@
 [![GitHub](https://img.shields.io/github/license/bettycode/React-Portfolio?logo=MIT&style=plastic)](https://github.com/BB/React-Portfolio)
 
 # Deployed link:-
-()
+(https://bettycode.github.io/React-Portfolio)
 
 # Description
 
-
-
-#
-
-![img]()
+React Portfolio
 
 #
-![img]()
+
+![img](img/PIC1.png)
+
+#
+![img](img/PIC2.png)
 
 # Table of Contents
 
@@ -46,7 +46,8 @@ Dependencies must be installed to run the application properly:
 * web-vitals
 
 # Usage
-  
+
+Portfolio
 
 
 # License
